@@ -1,7 +1,76 @@
-/*
-white: #f7f9f9;
-light-blue: #2081c3;
-dark-blue: #0a2c42;
-grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+body {
+    background-color: #f7f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #2081c3;
+    color: #f7f9f9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    padding: 2em;
+    text-decoration: none;
+    color: #f7f9f9;
+}
+
+#home a{
+    background-color: #2081c3;
+    margin: 10px;
+    padding:1em;
+}
+
+footer{
+    padding:1em;
+    background-color:#0a2c42;
+    color:white;   
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a:link, a:active, a:visited, a:hover {
+    color: white;
+}   
+
+#home img {
+    padding:5em;
+    height: 400px;
+   
+}
+.card img{
+    padding: 2em 5em;
+    height: 200px;
+}
+   
+.card{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#beers {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#randomBeer {
+    margin: 2em 2em 2em 5em;
+    align-items: flex-start;
+    flex-direction: row;
+    width:70%;
+}
+
+#beer {
+    width:27%;
+    margin: 2em;
+    align-items: center;
+    flex-direction: column;
+}
